@@ -1,0 +1,57 @@
+<!-- projects.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+    <main class="container vh-100 pt-2 text-center d-flex justify-content-center align-items-center">
+        <section>
+            <h1 class="display-1 d-flex justify-content-center">Proyectos</h1>
+            <!-- Aquí puedes agregar la información sobre tus proyectos -->
+            <p>Descripción de tus proyectos...</p>
+
+            <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/img/proy2 (1).png" alt="">
+                            <br>
+                            <br>
+                            <br>
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+
+    
+</body>
+</html>
